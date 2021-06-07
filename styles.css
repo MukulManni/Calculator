@@ -1,0 +1,33 @@
+body {
+    background-color: #444;
+    font-family: cursive;
+}
+
+#box {
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+}
+
+#screen {
+    background-color: aliceblue;
+    height: 70px;
+    text-align: right;
+    font-size: 25px;
+    
+}
+
+.button {
+    height: 87px;
+    width: 121px;
+}
+
+#zero {
+    height: 87px;
+    width: 247px
+}
+
+#buttons {
+    position: relative;
+    top: 10px; 
+}

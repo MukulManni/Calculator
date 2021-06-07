@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Calcuator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="box">
+        <h1>Calculator: </h1>
+        <div id="calculator">
+            <div id="screen"></div>
+
+            <div id="buttons">
+                <button class="button" onclick="printScreen(9)">9</button>
+                <button class="button" onclick="printScreen(8)">8</button>
+                <button class="button" onclick="printScreen(7)">7</button>
+                <button class="button" onclick="printScreen('+')">+</button>
+                <br>
+                <button class="button" onclick="printScreen(6)">6</button>
+                <button class="button" onclick="printScreen(5)">5</button>
+                <button class="button" onclick="printScreen(4)">4</button>
+                <button class="button" onclick="printScreen('-')">-</button>
+                <br>
+                <button class="button" onclick="printScreen(3)">3</button>
+                <button class="button" onclick="printScreen(2)">2</button>
+                <button class="button" onclick="printScreen(1)">1</button>
+                <button class="button" onclick="printScreen('x')">x</button>
+                <br>
+                <button id="zero" onclick="printScreen(0)">0</button>
+                <button class="button" onclick="calculate()">=</button>
+                <button class="button" onclick="printScreen('/')">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
